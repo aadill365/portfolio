@@ -1,0 +1,66 @@
+body::-webkit-scrollbar{
+	display: none;
+}
+.push-bottom{
+	margin-top: 7rem;
+}
+.personal{
+	background-color: #3b6998;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.profile{
+	display: flex;
+	flex-direction: column;
+}
+.profile-image{
+	width: 200px;
+	height: 200px;
+
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+}
+
+.education{
+	display: flex;
+	flex-direction: column;
+}
+
+.skills{
+	background-color: #fafafa;
+	color: #111;
+}
+a{
+	text-decoration: none;
+}
+
+.cover{
+	display: flex;
+	flex-direction: column;
+	border-radius: 1rem;
+}
+.cover-content{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.px-10,.container{
+	padding-right: 5rem;
+	padding-left: 5rem;
+}
+.home{
+	background: #fafafa;
+	color:#111;
+	padding: 3rem;
+	border-radius: 2rem;
+	margin-bottom: 3rem;
+}
+.portfolio{
+	border-radius: 1.5rem;
+	box-shadow: 2px 4px 8px rgba(0,0,0,0.8);
+	padding: 1rem;
+}
